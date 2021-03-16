@@ -14,7 +14,7 @@ def validarOpcion (mensaje, advertencia):
 			N = int(input(mensaje))
 			if (N >= 1 and N <= 5):
 				return N
-				break
+                break
 			else:
 				print (advertencia + "\n")
 		except ValueError:
@@ -25,7 +25,7 @@ def validarNumero (mensaje, advertencia):
 		try:
 			N = float(input(mensaje))
 			return N
-			break
+            break
 		except ValueError:
 			print (advertencia + "\n")
 

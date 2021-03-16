@@ -86,8 +86,8 @@ endfunction
 
 function division()
   disp("La opcion seleccionada fue DIVISION")
-  N1 = validarNumero("Ingrese el numero (1): ", "�Error :( intente de nuevo!");
-  N2 = validarNumero("Ingrese el numero (2): ", "�Error :( intente de nuevo!");
+  N1 = validarNumero("Ingrese el numero (1): ", "¡Error :( intente de nuevo!");
+  N2 = validarNumero("Ingrese el numero (2): ", "¡Error :( intente de nuevo!");
   if(N2 != 0)
     z = N1 / N2;
     conectarDB(N1, N2, 'division', z)
