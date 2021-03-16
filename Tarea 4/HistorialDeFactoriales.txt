@@ -1,4 +1,0 @@
-El factorial de 5 es 120
-El factorial de 7 es 5040 
-El factorial de 5 es 120
-El factorial de 5 es 120 
