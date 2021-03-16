@@ -9,25 +9,25 @@ def interfaz ():
 	print ("5) Salir" + "\n")
 
 def validarOpcion (mensaje, advertencia):
-	while True:
-		try:
-			N = int(input(mensaje))
-			if (N >= 1 and N <= 5):
-				return N
+    while True:
+        try:
+            N = int(input(mensaje))
+            if (N >= 1 and N <= 5): 
+                return N
                 break
-			else:
-				print (advertencia + "\n")
-		except ValueError:
-			print (advertencia + "\n")
+            else:
+                print(advertencia + "\n")
+        except ValueError:
+            print (advertencia + "\n")
 
 def validarNumero (mensaje, advertencia):
-	while True:
-		try:
-			N = float(input(mensaje))
-			return N
+    while True:
+        try:
+            N = float(input(mensaje))
+            return N
             break
-		except ValueError:
-			print (advertencia + "\n")
+        except ValueError:
+            print (advertencia + "\n")
 
 def calculadora ():
 	while True:
